@@ -1,0 +1,30 @@
+# Archivos locales de Terraform
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Archivos de configuración sensibles
+.terraformrc
+terraform.rc
+
+# Directorio de configuración local de Terraform
+.terraform/
+
+# Planes generados por terraform plan
+*.tfplan
+
+# Archivos de salida de comandos terraform
+*.out
+
+# Archivos de lock
+.terraform.lock.hcl
+
+# Archivos temporales del editor
+*.swp
+*.swo
+*.bak
+*.tmp
